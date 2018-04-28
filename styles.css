@@ -4,6 +4,15 @@
     padding: 0;
 }
 
-header img {
-    max-width: 90%
+header {
+    width: 1400px;
+    height: 50px;
+    background-color: rgb(21, 0, 39)
+}
+
+section {
+    width: 1400px;
+    height: 768px;
+    background: linear-gradient(rgba(110, 66, 9, 0.514),rgba(29, 9, 110, 0.541)), 
+    no-repeat center/cover url('https://i.pinimg.com/originals/0d/9d/0b/0d9d0bd13442272211ba6318b346688d.jpg');
 }
