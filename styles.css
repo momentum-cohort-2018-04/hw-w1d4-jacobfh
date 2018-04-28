@@ -37,3 +37,9 @@ a:hover {
 a:active {
     color: rgb(159, 135, 224);
 }
+
+.headshot {
+    margin: 18% 40% 10% 42%;
+    border: 7px rgba(17, 17, 17, 0.582) solid;
+    border-radius: 50%;
+}
