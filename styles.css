@@ -14,7 +14,7 @@ header {
 section {
     min-width: 100%;
     height: 768px;
-    background: linear-gradient(rgba(110, 66, 9, 0.514),rgba(29, 9, 110, 0.541)), 
+    background: linear-gradient(rgba(153, 96, 21, 0.473),rgba(29, 9, 110, 0.541)), 
     no-repeat center/cover url('https://i.pinimg.com/originals/0d/9d/0b/0d9d0bd13442272211ba6318b346688d.jpg');
 }
 
@@ -40,7 +40,49 @@ a:active {
 }
 
 .headshot {
-    margin: 18% 40% 10% 42%;
+    margin: 18% 40% 10% 41%;
     border: 10px rgba(17, 17, 17, 0.582) solid;
     border-radius: 50%;
+}
+
+article {
+    min-width: 100%;
+    height: 675px;
+    background-color: #EFF8E2;
+}
+
+.container {
+    min-width: 100%;
+    height: 500px;
+    background-color: rgb(200, 212, 194);
+}
+
+footer {
+    background-color: rgb(111, 106, 119);
+}
+
+article h1 {
+    Font-Family: 'Ruda', Sans-Serif;
+    Font-Size: 65px;
+    text-align: center;
+    color: #3D166B;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    font-weight: bold;
+}
+
+article h2 {
+    Font-Family: 'Roboto Slab', Serif;
+    Font-Size: 35px;
+    color: #3D166B;
+    padding-top: 10px;
+    text-align: center;
+}
+
+article p {
+    Font-Family: 'Roboto Slab';
+    Font-Size: 17px;
+    color: #3D166B;
+    padding: 7px 150px 7px 150px;
+    text-align: center; 
 }
