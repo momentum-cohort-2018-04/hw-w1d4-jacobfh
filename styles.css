@@ -7,7 +7,7 @@
 header {
     width: 1400px;
     height: 50px;
-    background-color: rgb(21, 0, 39)
+    background-color: rgba(19, 10, 27, 0.973)
 }
 
 section {
@@ -15,4 +15,25 @@ section {
     height: 768px;
     background: linear-gradient(rgba(110, 66, 9, 0.514),rgba(29, 9, 110, 0.541)), 
     no-repeat center/cover url('https://i.pinimg.com/originals/0d/9d/0b/0d9d0bd13442272211ba6318b346688d.jpg');
+}
+
+a:link {
+    text-decoration: none;
+    Font-Family: 'Ruda', Sans-Serif;
+    Font-Size: 17px;    
+    color: rgb(231, 231, 231);
+    padding-top: 5px;
+    padding-left: 20px;
+}
+
+a:visited {
+    color: rgb(231, 231, 231);
+}
+
+a:hover {
+    color: rgb(207, 189, 255);
+}
+
+a:active {
+    color: rgb(159, 135, 224);
 }
