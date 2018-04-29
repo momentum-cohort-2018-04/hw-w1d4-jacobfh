@@ -86,3 +86,27 @@ article p {
     padding: 7px 150px 7px 150px;
     text-align: center; 
 }
+
+.container2 {
+    max-width: 85%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 3%;
+    height: 700px;
+    background-color: rgb(255, 255, 255);
+    
+}
+
+.container h1 {
+    background-color: rgb(32, 10, 32);
+    height: 700px;
+    padding-left: 40px;
+    padding-right: 40px;
+    max-width: 900px;
+    
+}
+
+main {
+    background-color: rgb(216, 223, 206);
+    height: 900px;
+}
