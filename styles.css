@@ -110,3 +110,86 @@ main {
     background-color: rgb(216, 223, 206);
     height: 900px;
 }
+
+.resumeHeader h1 {
+    background-color: rgba(32, 10, 32, 0.829);
+    color: whitesmoke;
+    Font-Family: 'Ruda', Sans-Serif;
+    font-size: 2rem;
+    padding-top: 20px;
+    padding-left: 25px;
+}
+
+.resumeHeader h2 {
+    background-color: rgba(32, 10, 32, 0.829);
+    color: whitesmoke;
+    Font-Family: 'Ruda', Sans-Serif;
+    font-size: 1rem;
+    height: 50px;
+    padding-left: 25px;
+}
+
+.resumeHeadshot {
+    max-width: 100px;
+    max-height: 100px;
+    display: inline-block;
+    float: right;
+    border-radius: 50%;
+    margin-right: 5%;
+}
+
+.clearfix {
+    clear:both;
+    content: "";
+}
+
+.resume h1 {
+    padding-top: 25px;
+    padding-left: 45px;
+    color: rgb(32, 10, 32);
+    Font-Family: 'Ruda', Sans-Serif;
+    font-size: 2rem;
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+.resume hr {
+   margin-left: 7%;
+   margin-right: 7%;
+}
+
+.column1 li {
+    padding-left: 50px;
+    list-style-position: inside;
+    Font-Family: 'Roboto Slab';
+    Font-Size: 17px;
+    color: #3D166B;
+}
+
+.column2 li {
+    padding-left: 50px;
+    list-style-position: inside;
+    float: left;
+    Font-Family: 'Roboto Slab';
+    Font-Size: 17px;
+    color: #3D166B;
+}
+
+ul {
+    width: 375px;
+    padding-top: 10px;
+}
+
+ul.column1 {
+    display: inline-block;
+    float: left;
+    margin-left: 10%;
+    margin-right: 10%;
+    line-height: 1.5;
+}
+
+ul.column2 {
+    display: inline-block;
+    float: left;
+    line-height: 1.5;
+}
