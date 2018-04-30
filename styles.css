@@ -58,7 +58,11 @@ article {
 }
 
 footer {
-    background-color: rgb(111, 106, 119);
+    background-color: rgb(65, 42, 102);
+    height: 135px;
+    color: rgb(228, 247, 211);
+    padding: 20px;
+    line-height: 1.5;
 }
 
 article h1 {
@@ -239,4 +243,82 @@ ul.column2 {
     padding-left: 25px;
     padding-right: 25px;
     padding-top: 15px;
+}
+
+.dogPage {
+    max-width: 95%;
+    border-radius: 2px;
+    border: 2px #3D166B solid;
+    margin-left: 25px;
+}
+
+.portfolioHeader {
+    padding-top: 25px;
+    /* padding-left: 45px; */
+    color: rgb(32, 10, 32);
+    Font-Family: 'Ruda', Sans-Serif;
+    font-size: 22.5px;
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+.dogSection h3{
+    padding-top: 25px;
+    padding-left: 25px;
+    color: rgb(32, 10, 32);
+    Font-Family: 'Ruda', Sans-Serif;
+    font-size: 22.5px;
+    text-align: left;
+    padding-bottom: 5px;
+}
+
+.dogSection p {
+    Font-Family: 'Roboto Slab';
+    Font-Size: 17px;
+    color: #3D166B;
+    text-align: left;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+
+.glitchLink a {
+    color: rgba(114, 84, 197, 0.801);
+    text-align: left;
+    padding-left: 25px;
+    padding-bottom: 20px;
+}
+
+.glitchLink a:hover {
+    color: rgb(207, 189, 255);
+}
+
+.glitchLink a:active {
+    color: rgb(159, 135, 224);
+}
+
+.glitchLink {
+    display: block;
+}
+
+.container3 {
+    max-width: 85%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 3%;
+    height: 1650px;
+    background-color: rgb(255, 255, 255);
+}
+
+.plantPage {
+    max-width: 95%;
+    border-radius: 2px;
+    border: 2px #3D166B solid;
+    margin-left: 25px;
+}
+
+figure {
+    background-color: rgb(216, 223, 206);
+    height: 2000px;
 }
