@@ -1,0 +1,333 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+header {
+    min-width: 100%;
+    height: 50px;
+    background-color: rgba(19, 10, 27, 0.973)
+}
+
+section {
+    min-width: 100%;
+    height: 768px;
+    background: linear-gradient(rgba(153, 96, 21, 0.473),rgba(29, 9, 110, 0.541)), 
+    no-repeat center/cover url('https://i.pinimg.com/originals/0d/9d/0b/0d9d0bd13442272211ba6318b346688d.jpg');
+}
+
+a:link {
+    text-decoration: none;
+    Font-Family: 'Ruda', Sans-Serif;
+    Font-Size: 17px;    
+    color: rgb(231, 231, 231);
+    padding-top: 5px;
+    padding-left: 20px;
+}
+
+a:visited {
+    color: rgb(231, 231, 231);
+}
+
+a:hover {
+    color: rgb(207, 189, 255);
+}
+
+a:active {
+    color: rgb(159, 135, 224);
+}
+
+.headshot {
+    margin: 18% 40% 10% 41%;
+    border: 10px rgba(17, 17, 17, 0.582) solid;
+    border-radius: 50%;
+}
+
+article {
+    min-width: 100%;
+    height: 675px;
+    background-color: #EFF8E2;
+}
+
+.container {
+    min-width: 100%;
+    height: 500px;
+    background-color: rgb(200, 212, 194);
+}
+
+footer h2 {
+    background-color: rgb(34, 19, 59);
+    height: 135px;
+    color: rgb(228, 247, 211);
+    padding: 20px;
+    line-height: 1.5;
+    font-size: 20px;
+    min-width: 100%;
+    display: inline-block;
+}
+
+footer p {
+    background-color: rgb(34, 19, 59);
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+article h1 {
+    Font-Family: 'Ruda', Sans-Serif;
+    Font-Size: 65px;
+    text-align: center;
+    color: #3D166B;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    font-weight: bold;
+}
+
+article h2 {
+    Font-Family: 'Roboto Slab', Serif;
+    Font-Size: 35px;
+    color: #3D166B;
+    padding-top: 10px;
+    text-align: center;
+}
+
+article p {
+    Font-Family: 'Roboto Slab';
+    Font-Size: 17px;
+    color: #3D166B;
+    padding: 7px 150px 7px 150px;
+    text-align: center; 
+}
+
+.container2 {
+    max-width: 85%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 3%;
+    height: 1000px;
+    background-color: rgb(255, 255, 255);
+    
+}
+
+.container h1 {
+    background-color: rgb(32, 10, 32);
+    height: 700px;
+    padding-left: 40px;
+    padding-right: 40px;
+    max-width: 900px;
+    
+}
+
+main {
+    background-color: rgb(216, 223, 206);
+    height: 1500px;
+}
+
+.resumeHeader h1 {
+    background-color: rgba(32, 10, 32, 0.829);
+    color: whitesmoke;
+    Font-Family: 'Ruda', Sans-Serif;
+    font-size: 2rem;
+    padding-top: 20px;
+    padding-left: 25px;
+}
+
+.resumeHeader h2 {
+    background-color: rgba(32, 10, 32, 0.829);
+    color: whitesmoke;
+    Font-Family: 'Ruda', Sans-Serif;
+    font-size: 1rem;
+    height: 50px;
+    padding-left: 25px;
+}
+
+.resumeHeadshot {
+    max-width: 100px;
+    max-height: 100px;
+    display: inline-block;
+    float: right;
+    border-radius: 50%;
+    margin-right: 5%;
+}
+
+.clearfix {
+    clear:both;
+    content: "";
+}
+
+.resume h1 {
+    padding-top: 25px;
+    padding-left: 140px;
+    color: rgb(32, 10, 32);
+    Font-Family: 'Ruda', Sans-Serif;
+    font-size: 45px;
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+.resume hr {
+   margin-left: 7%;
+   margin-right: 7%;
+}
+
+.column1 li {
+    padding-left: 130px;
+    list-style-position: inside;
+    Font-Family: 'Roboto Slab';
+    Font-Size: 17px;
+    color: #3D166B;
+}
+
+.column2 li {
+    padding-left: 100px;
+    list-style-position: inside;
+    float: left;
+    Font-Family: 'Roboto Slab';
+    Font-Size: 17px;
+    color: #3D166B;
+}
+
+ul {
+    width: 375px;
+    padding-top: 10px;
+}
+
+ul.column1 {
+    display: inline-block;
+    float: left;
+    margin-left: 10%;
+    margin-right: 10%;
+    line-height: 1.5;
+    padding-bottom: 15px;
+}
+
+ul.column2 {
+    display: inline-block;
+    float: left;
+    line-height: 1.5;
+    padding-bottom: 15px;
+}
+
+.hrFix {
+    margin-left: 7%;
+    margin-right: 7%;
+}
+
+.resumeExperience h1 {
+    padding-top: 25px;
+    /* padding-left: 45px; */
+    color: rgb(32, 10, 32);
+    Font-Family: 'Ruda', Sans-Serif;
+    font-size: 45px;
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+.experienceClass {
+    Font-Family: 'Roboto Slab';
+    Font-Size: 17px;
+    color: #3D166B;
+    text-align: center;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 15px;
+}
+
+.education {
+    padding-top: 25px;
+    /* padding-left: 45px; */
+    color: rgb(32, 10, 32);
+    Font-Family: 'Ruda', Sans-Serif;
+    font-size: 22.5px;
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+.educationClass {
+    Font-Family: 'Roboto Slab';
+    Font-Size: 17px;
+    color: #3D166B;
+    text-align: center;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 15px;
+}
+
+.dogPage {
+    max-width: 95%;
+    border-radius: 2px;
+    border: 2px #3D166B solid;
+    margin-left: 25px;
+}
+
+.portfolioHeader {
+    padding-top: 25px;
+    /* padding-left: 45px; */
+    color: rgb(32, 10, 32);
+    Font-Family: 'Ruda', Sans-Serif;
+    font-size: 22.5px;
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+.dogSection h3{
+    padding-top: 25px;
+    padding-left: 25px;
+    color: rgb(32, 10, 32);
+    Font-Family: 'Ruda', Sans-Serif;
+    font-size: 22.5px;
+    text-align: left;
+    padding-bottom: 5px;
+}
+
+.dogSection p {
+    Font-Family: 'Roboto Slab';
+    Font-Size: 17px;
+    color: #3D166B;
+    text-align: left;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+
+.glitchLink a {
+    color: rgba(114, 84, 197, 0.801);
+    text-align: left;
+    padding-left: 25px;
+    padding-bottom: 20px;
+}
+
+.glitchLink a:hover {
+    color: rgb(207, 189, 255);
+}
+
+.glitchLink a:active {
+    color: rgb(159, 135, 224);
+}
+
+.glitchLink {
+    display: block;
+}
+
+.container3 {
+    max-width: 85%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 3%;
+    height: 1650px;
+    background-color: rgb(255, 255, 255);
+}
+
+.plantPage {
+    max-width: 95%;
+    border-radius: 2px;
+    border: 2px #3D166B solid;
+    margin-left: 25px;
+}
+
+figure {
+    background-color: rgb(216, 223, 206);
+    height: 2000px;
+}
