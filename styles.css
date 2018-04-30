@@ -92,7 +92,7 @@ article p {
     margin-left: 10%;
     margin-right: 10%;
     margin-top: 3%;
-    height: 700px;
+    height: 1000px;
     background-color: rgb(255, 255, 255);
     
 }
@@ -108,7 +108,7 @@ article p {
 
 main {
     background-color: rgb(216, 223, 206);
-    height: 900px;
+    height: 1500px;
 }
 
 .resumeHeader h1 {
@@ -145,10 +145,10 @@ main {
 
 .resume h1 {
     padding-top: 25px;
-    padding-left: 45px;
+    padding-left: 140px;
     color: rgb(32, 10, 32);
     Font-Family: 'Ruda', Sans-Serif;
-    font-size: 2rem;
+    font-size: 45px;
     text-align: center;
     padding-bottom: 5px;
 }
@@ -159,7 +159,7 @@ main {
 }
 
 .column1 li {
-    padding-left: 50px;
+    padding-left: 130px;
     list-style-position: inside;
     Font-Family: 'Roboto Slab';
     Font-Size: 17px;
@@ -167,7 +167,7 @@ main {
 }
 
 .column2 li {
-    padding-left: 50px;
+    padding-left: 100px;
     list-style-position: inside;
     float: left;
     Font-Family: 'Roboto Slab';
@@ -186,10 +186,57 @@ ul.column1 {
     margin-left: 10%;
     margin-right: 10%;
     line-height: 1.5;
+    padding-bottom: 15px;
 }
 
 ul.column2 {
     display: inline-block;
     float: left;
     line-height: 1.5;
+    padding-bottom: 15px;
+}
+
+.hrFix {
+    margin-left: 7%;
+    margin-right: 7%;
+}
+
+.resumeExperience h1 {
+    padding-top: 25px;
+    /* padding-left: 45px; */
+    color: rgb(32, 10, 32);
+    Font-Family: 'Ruda', Sans-Serif;
+    font-size: 45px;
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+.experienceClass {
+    Font-Family: 'Roboto Slab';
+    Font-Size: 17px;
+    color: #3D166B;
+    text-align: center;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 15px;
+}
+
+.education {
+    padding-top: 25px;
+    /* padding-left: 45px; */
+    color: rgb(32, 10, 32);
+    Font-Family: 'Ruda', Sans-Serif;
+    font-size: 22.5px;
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+.educationClass {
+    Font-Family: 'Roboto Slab';
+    Font-Size: 17px;
+    color: #3D166B;
+    text-align: center;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 15px;
 }
