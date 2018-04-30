@@ -57,12 +57,21 @@ article {
     background-color: rgb(200, 212, 194);
 }
 
-footer {
-    background-color: rgb(65, 42, 102);
+footer h2 {
+    background-color: rgb(34, 19, 59);
     height: 135px;
     color: rgb(228, 247, 211);
     padding: 20px;
     line-height: 1.5;
+    font-size: 20px;
+    min-width: 100%;
+    display: inline-block;
+}
+
+footer p {
+    background-color: rgb(34, 19, 59);
+    text-align: center;
+    padding-bottom: 10px;
 }
 
 article h1 {
